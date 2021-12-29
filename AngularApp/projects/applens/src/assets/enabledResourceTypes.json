@@ -514,6 +514,26 @@
             "azureCommImpactedServicesList": "",
             "searchSuffix": "AZURE SQL SERVER",
             "displayName": "Azure SQL Server"
-        }  
+        },
+        { 
+             "service": "ResourceService",  
+             "resourceType": "microsoft.insights/scheduledQueryRules",  
+             "templateFileName": "LogSearchAlerts",  
+             "imgSrc": "assets/img/AzureAlerts-Logo.svg",  
+             "versionPrefix": "",  
+             "azureCommImpactedServicesList": "",
+             "searchSuffix": "AZURE LOG SEARCH ALERTS",
+             "displayName": "Azure Log Search Alerts"
+         },
+         { 
+             "service": "ResourceService",  
+             "resourceType": "microsoft.insights/metricAlerts",  
+             "templateFileName": "MetricAlerts",  
+             "imgSrc": "assets/img/AzureAlerts-Logo.svg",  
+             "versionPrefix": "",  
+             "azureCommImpactedServicesList": "",
+             "searchSuffix": "AZURE METRICS ALERTS",
+             "displayName": "Azure Metric Alerts"
+         }
     ]
 }
