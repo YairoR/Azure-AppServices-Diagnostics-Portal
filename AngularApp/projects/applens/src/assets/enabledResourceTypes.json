@@ -517,7 +517,7 @@
         },
         { 
              "service": "ResourceService",  
-             "resourceType": "microsoft.insights/scheduledQueryRules",  
+             "resourceType": "Microsoft.Insights/scheduledQueryRules",  
              "templateFileName": "LogSearchAlerts",  
              "imgSrc": "assets/img/AzureAlerts-Logo.svg",  
              "versionPrefix": "",  
@@ -527,7 +527,7 @@
          },
          { 
              "service": "ResourceService",  
-             "resourceType": "microsoft.insights/metricAlerts",  
+             "resourceType": "Microsoft.Insights/metricAlerts",  
              "templateFileName": "MetricAlerts",  
              "imgSrc": "assets/img/AzureAlerts-Logo.svg",  
              "versionPrefix": "",  
